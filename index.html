@@ -1,0 +1,624 @@
+<!DOCTYPE HTML>
+<html lang='ko'>
+<head>
+	<title> </title>
+	<meta charset='utf-8'>
+	<meta name='Viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.6'>
+	<meta name='Title' content='한국금융연수원 메인화면'>
+	<meta name='Subject' content='한국금융연수원 메인화면'>
+	<meta name='Keywords' content='한국금융연수원, 한국금융, 금융, 연수원'>
+	<meta name='Author' content=''>
+	<meta name='Publisher' content='오정현'>
+	<meta name='Description' content='한국금융연수원 메인화면 클론코딩입니다.'>
+	<meta name='Author-Date' content='20220620'>
+	<meta name='Copyright' content=''>
+	<meta name='Robots' content='index,follow'>
+
+
+	<link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='css/style.css'>
+
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="./js/script.js" defer></script>
+
+
+</head>
+<body>
+	<ul id="skip">
+		<li><a href="#header">헤더 바로가기</a></li>
+		<li><a href="#nav">메뉴 바로가기</a></li>
+		<li><a href="#content">내용 바로가기</a></li>
+	</ul>
+	<div id="wrap">
+		<div id="header">
+			<div class="container">
+				<div class="h_inner">
+					<div class="h_top">
+						<div class="h_logo">
+							<h1><a href="#"><img src="./img/kbi_logo.png" alt="logo"></a></h1>
+						</div>
+						<div class="h_gnb_menu">
+							<ul>
+								<li><a href="#" onclick="location.href='index1.html'">로그인</a></li>
+								<li><a href="#">회원가입</a></li>
+								<li><a href="#"><i class="icon_customer"></i> 고객센터</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="h_menu_w">
+						<button type="button" class="bnt_h_allmenu"><span class="ir_so">전체메뉴 열기</span></button>
+						<div class="nav">
+							<div class="menu-bg">
+								<ul>
+									<li><a href="#">연수 프로그램</a></li>
+									<li><a href="#">연수 프로그램</a></li>
+									<li><a href="#">연수 프로그램</a></li>
+									<li><a href="#">연수 프로그램</a></li>
+									<li><a href="#">이벤트</a></li>
+								</ul>
+							</div>
+							<ul class="nav_list">
+								<li><a href="#" title="MY">MY</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">MY 학습</a></li>
+											<li><a href="#">찜 &책바구니</a></li>
+											<li><a href="#">MY 일정</a></li>
+											<li><a href="#">MY 정보</a></li>
+											<li><a href="#">MY 신청현황</a></li>
+											<li><a href="#">MY 쿠폰</a></li>
+											<li><a href="#">MY 활동</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#" title="연수">연수</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">추천연수</a></li>
+											<li><a href="#">연수안내</a></li>
+											<li><a href="#">연수일정</a></li>
+											<li><a href="#">맞춤연수</a></li>
+											<li><a href="#">금융 DT 아케데미</a></li>
+											<li><a href="#">과정제안</a></li>
+											<li><a href="#">Egg&Apple</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#" title="KBI Tube">KBI Tube</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">추천 KBI tube</a></li>
+											<li><a href="#">전체콘텐츠</a></li>
+											<li><a href="#">무료콘텐츠</a></li>
+											<li><a href="#">서비스안내</a></li>
+											<li><a href="#">스튜디오</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#" title="자격">자격</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">자격시험 안내</a></li>
+											<li><a href="#">시험일정</a></li>
+											<li><a href="#">접수확인 및 취소</a></li>
+											<li><a href="#">합격자 발표</a></li>
+											<li><a href="#">자격관리 및 발급</a></li>
+											<li><a href="#">자격관련 공지사항</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#" title="도서">도서</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">도서안내</a></li>
+											<li><a href="#">전체도서</a></li>
+											<li><a href="#">주문내역</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#" title="금융지식톡">금융지식톡</a>
+									<div class="twodepth">
+										<ul>
+											<li><a href="#">오늘의 금융지식톡</a></li>
+											<li><a href="#">질문&답변</a></li>
+											<li><a href="#">베스트 금융지식인</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<button type="button" class="bnt_h_search"><span class="ir_so">검색</span></button>
+					</div>
+				</div>
+				<div class="quick_menu">
+					<h2>QUICK MENU</h2>
+					<ul>
+						<li><a href="#"><i class="biz_icon"></i><span>BIZ센터</span></a></li>
+						<li><a href="#"><i class="apply_icon"></i><span>연수신청</span></a></li>
+						<li><a href="#"><i class="print_icon"></i><span>제증명발급</span></a></li>
+						<li><a href="#"><i class="book_icon"></i><span>도서관</span></a></li>
+						<li><a href="#"><i class="text_btn_icon"></i><span>연수원소개</span></a></li>
+						<li><a href="#"><i class="trainin_icon"></i><span>연수일정</span></a></li>
+						<li><a href="#"><i class="close_icon"></i><span>close</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+		<div id="banner" class="banner-wrap">
+			<ul>
+				<li class="banner-slide1"><a href="#" class="ir_pm">금융 내부통제임원과정</a></li>
+				<li class="banner-slide2"><a href="#" class="ir_pm">금융 내부통제임원과정 연수실시 안내</a></li>
+				<li class="banner-slide3"><a href="#" class="ir_pm">금융 내부통제임원과정 연수실시 안내</a></li>
+			</ul> 
+			<div class="slide-btn">
+				<button type="button" class="btn-icon-prev" disabled="disabled">
+					<span class="ir">이전</span>
+				</button>
+				<button type="button" class="btn-icon-pause" disabled="disabled">
+					<span class="ir">일시정지</span>
+				</button>
+				<button type="button" class="btn-icon-play" disabled="disabled">
+					<span class="ir">시작</span>
+				</button>
+				<button type="button" class="btn-icon-next" disabled="disabled">
+					<span class="ir">다음</span>
+				</button>
+			</div>
+		</div>
+	
+		<div id="mebmerBoxArea" class="mebers_box">
+			<div class="container">
+				<div class="i-bg">
+					<div class="mb_info">
+						<strong class="tit_cWhite">Members</strong>
+						<span class="txt_cWhite counter">656,197</span>
+					</div>
+					<div class="member-list-wrap">
+						<ul>
+							<li>
+								<a href="#">
+									<span class="num">01</span>
+									<em class="m_txt">금융연수원7월 개강과정에 참여하세요!</em>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="num">02</span>
+									<em class="m_txt">준법교육조건부 조치면제 제도 관련 교육 상세보기 및 교육신청하기</em>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="num">03</span>
+									<em class="m_txt">금융 내부통제임원과정연수실시 안내</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="contents" class="cf">
+			<div class="main-section-kbitube main-section">
+				<div class="container">
+					<h2>추천 KBI tube</h2>
+					<ul class="cf">
+						<li class="red">
+							<div class="thum_layer_w  thum-bg1">
+								<div class="thum-bg">
+									<div class="thum-a-wrap">
+										<a href="#">상세보기</a>
+										<a href="#">회원권구입</a>
+									</div>
+								</div>
+							</div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>동영상</h4>
+									<h3>언제나 벌금은 옳다?</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">0시간 4분 31초</span>
+									<span class="txt_categori">경영·경제 > 경제 > 경제일반</span>
+								</div>
+							</div>
+						</li>
+						<li class="red">
+							<div class="thum_layer_w  thum-bg2">
+								<div class="thum-bg">
+									<div class="thum-a-wrap">
+										<a href="#">상세보기</a>
+										<a href="#">회원권구입</a>
+									</div>
+								</div>
+							</div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>동영상</h4>
+									<h3>잡담 시간을 근무 시간에서 뺴달라고요?</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">0시간 4분 34초</span>
+									<span class="txt_categori">경영·경제 > 리더십 > 셀프리더십</span>
+								</div>
+							</div>
+						</li>
+						<li class="red">
+							<div class="thum_layer_w  thum-bg3">
+								<div class="thum-bg">
+									<div class="thum-a-wrap">
+										<a href="#">상세보기</a>
+										<a href="#">회원권구입</a>
+									</div>
+								</div>
+							</div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>동영상</h4>
+									<h3>궁금증 해결! 다가오는 디지털금융환경 변화에 대응하는 방법</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">0시간 8분 49초</span>
+									<span class="txt_categori">금융직무 > 디지털금융 > 디지털금융 기획</span>
+								</div>
+							</div>
+						</li>
+						<li class="red">
+							<div class="thum_layer_w  thum-bg4">
+								<div class="thum-bg">
+									<div class="thum-a-wrap">
+										<a href="#">상세보기</a>
+										<a href="#">회원권구입</a>
+									</div>
+								</div>
+							</div>
+							<div class="thum_cont">
+								<div class="thum_cont">
+									<div class="thum_cont_head">
+										<h4>동영상</h4>
+										<h3>베트남 소액금융시장, 새로운 지평이 열린다!</h3>
+									</div>
+									<div class="thum_cont_foot">
+										<span class="time">0시간 16분 57초</span>
+										<span class="txt_categori">금융직무 > 글로벌 > 글로벌</span>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="main-btn">
+						<span class="left"><a href="javascript:"><img src="./img/icon_slideLeft_off.png" alt="leftBtn"></a></span>
+						<span class="right"><a href="javascript:"><img src="./img/icon_slideRight_on.png" alt="rightBtn"></a></span>
+					</div>
+				</div>
+			
+			</div>
+			<div class="main-section-recommand main-section">
+				<div class="container">
+					<h2>추천 학습</h2>
+					<ul class="cf">
+						<li>
+							<div class="thum_layer_w  thum-bg5"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>여신법률</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.1.13~22.11.11</span>
+									<span class="txt_categori">금융직무 > 법률/컴플라이언스 > 금융실무법률</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg6"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>여신심사</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.09.13~22.10.12</span>
+									<span class="txt_categori">금융직무 > 기업금융 > 신용분석 및 여신심사</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg7"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>금융시장분석</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.11.07~22.11.09</span>
+									<span class="txt_categori">금융직무 > IB > IB</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg8"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>신용분석</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.08.03~22.09.08</span>
+									<span class="txt_categori">금융직무 > 기업금융 > 신용분석 및 여신심사</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="main-btn">
+						<span class="left"><a href="javascript:"><img src="./img/icon_slideLeft_off.png" alt="leftBtn"></a></span>
+						<span class="right"><a href="javascript:"><img src="./img/icon_slideRight_on.png" alt="rightBtn"></a></span>
+					</div>
+				</div>
+			
+			</div>
+			<div class="main-section-recommand main-section">
+				<div class="container">
+					<h2>인기 학습</h2>
+					<ul class="cf">
+						<li>
+							<div class="thum_layer_w  thum-bg9"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>사이버연수</h4>
+									<h3>자금세탁방지 핵심요원(기초)</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.22~22.08.28</span>
+									<span class="txt_categori">금융직무 > 법률/컴플라이언스 > 컴플라이언스/자금세탁방지</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg10"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>통신연수</h4>
+									<h3>처음 만나는 디지털 마케팅</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.26~22.08.25</span>
+									<span class="txt_categori">금융직무 > 기업금융 > 신용분석 및 여신심사</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg11"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>통신연수</h4>
+									<h3>부동산 기본지식</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.22~22.09.25</span>
+									<span class="txt_categori">금융직무 > 개인금융 > 부동산투자</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg12"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>통신연수</h4>
+									<h3>여신법률(채권계약)기초</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.19~22.10.23</span>
+									<span class="txt_categori">금융직무 > 법률/컴플라이언스 > 금융실무법률</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="main-btn">
+						<span class="left"><a href="javascript:"><img src="./img/icon_slideLeft_off.png" alt="leftBtn"></a></span>
+						<span class="right"><a href="javascript:"><img src="./img/icon_slideRight_on.png" alt="rightBtn"></a></span>
+					</div>
+				</div>
+			</div>
+			<div class="main-section-recommand main-section">
+				<div class="container">
+					<h2>신규 학습</h2>
+					<ul class="cf">
+						<li>
+							<div class="thum_layer_w  thum-bg9"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>통신연수</h4>
+									<h3>영업점관리자</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.18~22.10.23</span>
+									<span class="txt_categori">경영·경제 > 리더십 > 조직리더십</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg10"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>리스크관리</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.07.04~22.07.12</span>
+									<span class="txt_categori">금융직무 > 리스크관리 > 리스크관리</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg11"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>집합연수</h4>
+									<h3>금융시장분석</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.08.03~22.09.08</span>
+									<span class="txt_categori">금융직무 > 기업금융 > 신용분석 및 여신심사</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="thum_layer_w  thum-bg12"></div>
+							<div class="thum_cont">
+								<div class="thum_cont_head">
+									<h4>사이버연수</h4>
+									<h3>IB첫걸음</h3>
+								</div>
+								<div class="thum_cont_foot">
+									<span class="time">연수일정 22.10.09~22.11.08</span>
+									<span class="txt_categori">금융직무 > IB > IB</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="main-btn">
+						<span class="left"><a href="javascript:"><img src="./img/icon_slideLeft_off.png" alt="leftBtn"></a></span>
+						<span class="right"><a href="javascript:"><img src="./img/icon_slideRight_on.png" alt="rightBtn"></a></span>
+					</div>
+				</div>
+			</div>
+			<div class="main-section-white">
+				<div class="container">
+					<div class="section-btn">
+						<span class="left"><a href="javascript:"><img src="./img/icon_slideLeft_off.png" alt="leftBtn"></a></span>
+						<span class="right"><a href="javascript:"><img src="./img/icon_slideRight_on.png" alt="rightBtn"></a></span>
+					</div>
+					<div class="ms_inner">
+						<h2>금융지식톡</h2>
+							<ul>
+								<li>
+									<a href="#">
+										 <span class="blue">Q.</span>
+										 <span class="question">4차산업혁명시대에 은행이 나아갈 방향?</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 <span class="blue">Q.</span>
+										 <span class="question">자금세탁방지 자격증</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 <span class="blue">Q.</span>
+										 <span class="question">은행FP 자경농지에 대한 양도소득세 감면 질문 </span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 <span class="blue">Q.</span>
+										 <span class="question">금리스왑에서 고정금리 지급</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										 <span class="blue">Q.</span>
+										 <span class="question">법인의 연대보증 및 담보제공 관련 질문드립니다.</span>
+									</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main_section_banner">
+				<div class="msb_inner">
+					<div class="msb_box">
+						<a href="#"><p class="msb_tit">기관연수 신청</p></a>
+					</div>
+					<div class="msb_box_big">
+						<p>새희망 홀씨대출희망자가<br>꼭 알아야할 금융상식</p>
+						<ul>
+							<li><a href="#">연수신청</a></li>
+							<li><a href="#">연수결과조회</a></li>
+							<li><a href="#">메뉴얼</a></li>
+						</ul>
+					</div>
+					<div class="msb_box_big">
+						<p>자영업자가<br> 꼭 알아야할 금융상식</p>
+						<ul>
+							<li><a href="#">연수신청</a></li>
+							<li><a href="#">연수결과조회</a></li>
+							<li><a href="#">메뉴얼</a></li>
+						</ul>
+					</div>
+					<ul class="mci_list_w">
+						<li><a href="#"><img src="./img/img_banner07.png" alt="NH농협 연수안내"></a></li>
+						<li><a href="#"><img src="./img/img_banner02.png" alt="대출성 상품 신규 등록교육 신청"></a></li>
+						<li><a href="#"><img src="./img/img_banner03.png" alt="대출성 상품 경력 등록교육 신청"></a></li>
+						<li><a href="#"><img src="./img/img_banner04.png" alt="투자자 보호 교육신청"></a></li>
+						<li><a href="#"><img src="./img/img_banner05.png" alt="신규과정 도서제안"></a></li>
+						<li><a href="#"><img src="./img/img_banner06.png" alt="교강사 초빙추천"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<div class="footer_top">
+					<div class="f_links_w">
+						<ul>
+							<li><a href="#">연수원소개</a></li>
+							<li><a href="#">오시는길</a></li>
+							<li><a href="#">저작권보호</a></li>
+						</ul>
+						<ul>
+							<li><a href="#" class="a_color">개인정보처리방침</a></li>
+							<li><a href="#">오시는길</a></li>
+							<li><a href="#">저작권보호</a></li>
+						</ul>
+						<ul>
+							<li>
+								<select name="" id="">
+									<option value="">Family Site</option>
+									<option value="">전국은행연합회</option>
+									<option value="">한국금융연구원</option>
+									<option value="">국제연구원</option>
+									<option value="">한국금융연구원</option>
+							     </select>
+							</li>
+							<li><a href="#">ENGLISH</a></li>
+							<li><a href="#">저작권보호</a></li>
+						</ul>
+					</div>
+					<div class="f_address_sns">
+						<div class="f_address">
+							<p>
+								03053 서울특별시 종로구 삼청로 118 사업자등록번호: 101-82-04644 통신판매번호:
+								 2002-00192 <br>
+                				사업자정보 FAX: 02-3700-1520 전자우편: privacy@kbi.or.kr 상호명: 사단법인 한국금융연수원 대표자: 서 태 종 <br>
+
+								ⓒ KOREA BANKING INSTITUTE. ALL RIGHTS RESERVED
+							</p>
+						</div>
+						<div class="sns">
+							<ul>
+								<li class="sns_f"><a href="#"></a></li>
+								<li class="sns_y"><a href="#"></a></li>
+								<li class="sns_i"><a href="#"></a></li>
+								<li class="sns_n"><a href="#"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer_bottom">
+					<strong class="tit_cc">고객센터</strong>
+					<p class="txt_cc">
+						<strong class="fBo">02-3700-1500</strong>
+						평일 : 09:00~20:00 주말 : 09:00~15:00(공휴일 및 12:00~13:00 제외)
+					</p>
+				</div>
+			</div>
+		</div>	
+    </div>
+</body>
+</html>
